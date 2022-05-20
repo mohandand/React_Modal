@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.accrdion_section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 20%;
+}
+.accordion_content {
+  background-color: white;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  border-radius: 10px;
+}
+.accrdion {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border: none;
+  margin: 2px;
+  padding: 10px;
+}
+.accrdion:hover,
+.active {
+  background-color: palegreen;
+}
+.sarrow {
+  margin-left: 10px;
+  margin-top: 15px;
+  border-left: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: rotate(220deg);
+}
+.darrow {
+  margin-left: 10px;
+  margin-top: 15px;
+  border-left: 0.2rem solid black;
+  border-bottom: 0.2rem solid black;
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: rotate(315deg);
+}
