@@ -21,7 +21,7 @@ export default function Accordion(props) {
       </button>
       <div
         ref={content} //refernce to this div
-        style={{ maxHeight: `${height}` }}
+        style={{ maxHeight: `${height}` }} //JSX inline style to cahnge height
         className="accordion_content"
       >
         {props.content}
