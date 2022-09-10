@@ -9,7 +9,7 @@ export default function Accordion(props) {
   let content = useRef(null);
 
   function toggleContent() {
-    //getting height of
+    //getting height of content div
     setHeight(height === "0px" ? `${content.current.scrollHeight}px` : "0px");
     setArrow(height === "0px" ? "darrow" : "sarrow");
     setActive(height === "0px" ? "accrdion active" : "accrdion");
