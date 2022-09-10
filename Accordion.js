@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "./styles.css";
 
 export default function Accordion(props) {
-  const [height, setHeight] = useState("0px"); //Based on height of content we will change arrow direction and change content disp
+  const [height, setHeight] = useState("0px"); //Based on height of content we will change arrow direction and change content display
   const [arrow, setArrow] = useState("sarrow");
   const [active, setActive] = useState("accrdion");
   //To get hiehgt of the content
@@ -20,7 +20,7 @@ export default function Accordion(props) {
         <span className={arrow}></span>
       </button>
       <div
-        ref={content}
+        ref={content} //refernce to this div
         style={{ maxHeight: `${height}` }}
         className="accordion_content"
       >
