@@ -9,13 +9,14 @@ export default function Accordion(props) {
   let content = useRef(null);
 
   function toggleContent() {
+    //getting height of
     setHeight(height === "0px" ? `${content.current.scrollHeight}px` : "0px");
     setArrow(height === "0px" ? "darrow" : "sarrow");
     setActive(height === "0px" ? "accrdion active" : "accrdion");
   }
   return (
     <div className="accrdion_section">
-      <button className={active} onClick={toggleContent}>
+      <button className={active} onClick={toggleContent}> 
         <p>{props.title}</p>
         <span className={arrow}></span>
       </button>
@@ -25,7 +26,7 @@ export default function Accordion(props) {
         className="accordion_content"
       >
         {props.content}
-      </div>
+      </div> 
     </div>
   );
 }
