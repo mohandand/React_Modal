@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import "./styles.css";
 
 export default function Accordion(props) {
-  const [height, setHeight] = useState("0px");
+  const [height, setHeight] = useState("0px"); //Based on height of content we will change arrow direction and change content disp
   const [arrow, setArrow] = useState("sarrow");
   const [active, setActive] = useState("accrdion");
   //To get hiehgt of the content
