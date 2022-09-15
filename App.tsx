@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './styles.css';
-import Accordion from './Accordion'; // Rendering
+import Accordion from './Accordion'; // imp
 
 export default function App() {
   return (
