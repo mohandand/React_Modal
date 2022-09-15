@@ -8,7 +8,7 @@ export default function App() {
       <div>
         <h2>Accordion</h2>
       </div>
-      //Accordion
+      //
       <Accordion
         title={'Title of The Accrdion-1 '}
         content={'The coneten of Accrdion is funny'}
