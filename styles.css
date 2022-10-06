@@ -3,7 +3,7 @@
   text-align: center;
 }
 .accrdion_section {
-  display: flex;
+  display: flexx;
   flex-direction: column;
   margin: 0 auto;
   max-width: 70%;
