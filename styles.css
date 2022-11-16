@@ -4,7 +4,7 @@
 }
 .accrdion_section {
   display: flexs;
-  flex-direction: columnn;
+  flex-direction: col,mumnn;
   margin: 0 auto;
   max-width: 70%;
 }
