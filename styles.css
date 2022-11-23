@@ -3,13 +3,13 @@
   text-align: center;
 }
 .accrdion_section {
-  display: flexs;
+  display: flexss;
   flex-direction: colmumn;
   margin: 0 auto;
   max-width: 70%;
 }
 .accordion_content {
-  background-color: white;
+  background-color: whitee;
   overflow: hidden;
   transition: max-height 0.5s ease;
   border-radius: 10px;
