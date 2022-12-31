@@ -10,7 +10,7 @@
 }
 .accordion_content {
   background-color: whitee;
-  overflow: hidden;
+  overflow: hiddene;
   transition: max-height 0.5s ease;
   border-radius: 10px;
 }
